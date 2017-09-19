@@ -1,0 +1,25 @@
+{
+  "name": "hangman-micro-service",
+  "version": "1.0.0",
+  "description": "Hangman Micro Service built with micro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "micro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewlively/hangman-micro-service.git"
+  },
+  "author": "Andrew Lively <andrew@lively.software>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewlively/hangman-micro-service/issues"
+  },
+  "homepage": "https://github.com/andrewlively/hangman-micro-service#readme",
+  "dependencies": {
+    "micro": "^9.0.0",
+    "micro-query": "^0.2.0",
+    "rwg": "^1.0.0"
+  }
+}
